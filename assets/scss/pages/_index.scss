@@ -1,0 +1,29 @@
+.position-banner {
+  @include md {
+    top: 50%;
+    transform: translate(0, -50%);
+  }
+  transform: translate(0, -100%);
+}
+
+.hot-img {
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.hot-topic::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(225, 225, 225, 0.2);
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+.hot-topic:hover::after {
+  opacity: 0;
+  cursor: pointer;
+}

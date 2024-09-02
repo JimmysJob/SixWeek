@@ -1,0 +1,22 @@
+// 文字導入
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200..900&display=swap');
+
+//fuction匯入
+@import 'bootstrap/scss/functions';
+
+// 變數匯入
+@import '/assets/scss/helpers/variables';
+
+//bs匯入
+@import 'bootstrap/scss/bootstrap';
+
+@import '/assets/scss/helpers/utilities';
+@import '/assets/scss/base/base';
+@import '/assets/scss/base/mixin';
+
+@import 'bootstrap/scss/utilities/api';
+
+@import '/assets/scss/layout/header';
+
+@import '/assets/scss/pages/index';
